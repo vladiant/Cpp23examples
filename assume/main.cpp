@@ -2,8 +2,8 @@
 
 #include <cmath>
 
-void g(int){};
-void h(void){};
+void g(int) {};
+void h(void) {};
 
 void f(int& x, int y) {
   [[assume(x > 0)]];  // Compiler may assume x is positive

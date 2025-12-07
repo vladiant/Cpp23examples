@@ -14,8 +14,7 @@ int main() {
 
   // Check if a key exists using contains()
   if (myMap.contains(2)) {
-    cout << "Key 2 exists in the map."
-         << "\n";
+    cout << "Key 2 exists in the map." << "\n";
   }
 
   // Find an element by key using find()
