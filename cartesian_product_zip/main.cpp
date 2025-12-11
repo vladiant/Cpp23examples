@@ -1,3 +1,5 @@
+// https://godbolt.org/z/ovv3x6EKz
+
 #include <print>
 #include <ranges>
 #include <vector>
