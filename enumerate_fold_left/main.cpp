@@ -1,3 +1,5 @@
+// https://godbolt.org/z/3Go96ETsP
+
 #include <algorithm>
 #include <iostream>
 #include <ranges>
