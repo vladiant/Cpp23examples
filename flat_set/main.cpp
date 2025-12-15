@@ -1,5 +1,7 @@
+// https://godbolt.org/z/n9nd3acv6
 // https://en.cppreference.com/w/cpp/container/flat_multiset
 // https://www.geeksforgeeks.org/cpp-23-flat-set-header/
+
 #include <algorithm>
 #include <cstdlib>
 #include <flat_set>
@@ -8,8 +10,8 @@
 #include <vector>
 
 // utility function to print the flat_set
-void printfset(flat_set<int>& fset) {
-  std::ostream_iterator<int> it_out(cout, " ");
+void printfset(std::flat_set<int>& fset) {
+  std::ostream_iterator<int> it_out(std::cout, " ");
   std::copy(fset.begin(), fset.end(), it_out);
   std::cout << "\n";
 }
