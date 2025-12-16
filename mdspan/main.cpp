@@ -1,3 +1,4 @@
+// https://godbolt.org/z/W98MoefMh (trunc, > gcc 15.2)
 // https://en.cppreference.com/w/cpp/container/mdspan
 
 #include <cstddef>
