@@ -1,5 +1,6 @@
 // https://godbolt.org/z/9z1jvheEM
 // -std=c++23 -lstdc++_libbacktrace
+// https://godbolt.org/z/neqs9b4Gv -std=c++23 -lstdc++exp
 // https://gcc.godbolt.org/z/vhxTxv45d
 #include <iostream>
 #include <stacktrace>
